@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/onlygradi"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity_play">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose the correct answer!"
+        android:textAllCaps="true"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+        android:textSize="16sp"
+        android:layout_marginTop="70dp"
+        android:padding="18dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question Here !"
+        android:background="@drawable/secondpage"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+        android:fontFamily="monospace"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:padding="100dp"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rdgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/rd1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="option 001"
+            android:fontFamily="serif"
+            android:background="@color/white"
+            android:textColor="@color/deepblue"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="45dp"
+            android:textAlignment="center"/>
+
+
+        <RadioButton
+            android:id="@+id/rd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="option 002"
+            android:fontFamily="serif"
+            android:background="@color/white"
+            android:textColor="@color/deepblue"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+
+        <RadioButton
+            android:id="@+id/rd3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="option 003"
+            android:background="@color/white"
+            android:textColor="@color/deepblue"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+
+        <RadioButton
+            android:id="@+id/rd4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:buttonTint="@color/deepblue"
+            android:text="option 004"
+            android:background="@color/white"
+            android:textColor="@color/deepblue"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+
+
+
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textAllCaps="true"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/lightblue"/>
+
+</LinearLayout>
