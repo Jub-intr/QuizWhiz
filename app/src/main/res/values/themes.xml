@@ -2,11 +2,18 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Quizzz" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-         <item name="colorPrimary">@color/deepblue</item>
+<!--         <item name="colorPrimary">@color/deepblue</item>-->
 <!--        <item name="android:startColor">@color/softviolet</item>-->
 <!--        <item name="android:endColor">@color/orange</item>-->
     </style>
 
 
     <style name="Theme.Quizzz" parent="Base.Theme.Quizzz" />
+    
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/deepblue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/funny</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.Quizzz</item>
+
+    </style>
 </resources>
